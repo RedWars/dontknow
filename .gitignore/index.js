@@ -4,7 +4,7 @@ const bot = new Discord.Client();
 var prefix = ('.')
 
 bot.on('ready', function() {
-    bot.user.setActivity("Surveille Les Serveurs RedWars");
+    bot.user.setActivity("Surveiller Les Serveurs RedWars");
     console.log("En ligne !");
 });
 
@@ -17,8 +17,8 @@ bot.on('message', message => {
     }
 
 
-    if (message.content === ""){       /// a faire !! space
-    message.reply("")
-    console.log("");
+    if (message.content === "basewars"){       /// a faire !! space
+    message.reply("actuellement en dev :)")
+    console.log("bwinfo effectué");
 }
 });
