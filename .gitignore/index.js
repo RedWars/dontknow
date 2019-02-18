@@ -4,7 +4,7 @@ const bot = new Discord.Client();
 var prefix = ('.')
 
 bot.on('ready', function() {
-    bot.user.setActivity("Surveille Les Serveurs RedWars");
+    bot.user.setActivity("Surveiller Les Serveurs RedWars");
     console.log("En ligne !");
 });
 
@@ -22,7 +22,7 @@ bot.on('message', message => {
     console.log("");
 }
 
-if (message.content === prefix + "embed"){
+if (message.content === prefix + "web"){
     var embed = new Discord.RichEmbed()
     .setTitle("EMBED")
     .setDescription("site RedWars")
