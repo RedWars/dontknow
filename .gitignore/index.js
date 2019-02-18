@@ -17,7 +17,7 @@ bot.on('message', message => {
     }
 
 
-    if (message.content === "basewars"){       /// a faire !! space
+    if (message.content === prefix + "basewars"){       /// a faire !! space
     message.reply("actuellement en dev :)")
     console.log("bwinfo effectué");
 }
