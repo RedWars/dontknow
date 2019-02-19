@@ -24,7 +24,7 @@ bot.on('message', message => {
     }
 
 
-    if (message.content === ""){       /// a faire !! space
+    if (message.content === ""){       /// 
     message.reply("")
     console.log("");
 }
